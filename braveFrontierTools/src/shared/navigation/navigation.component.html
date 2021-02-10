@@ -1,10 +1,9 @@
-<div>
-  <mat-toolbar class="bg-black">
-    <button mat-icon-button>
-      <mat-icon class="text-white focus:outline-none" [matMenuTriggerFor]="menuHeader">menu</mat-icon>
+  <mat-toolbar class="bg-blackCardUnit">
+    <button class="visible md:hidden h-10 w-10 p-2">
+      <mat-icon class="text-white focus:outline-none visible md:invisible" [matMenuTriggerFor]="menuHeader">menu</mat-icon>
     </button>
     <span class="text-white mr-5">Brave Frontier Tools</span>
-    <div class="invisible lg:visible" *ngFor="let nav of navLinks">
+    <div class="hidden lg:block" *ngFor="let nav of navLinks">
       <button class="text-white mr-3 focus:outline-none" [routerLink]="nav.path">{{nav.label}}</button>
     </div>
       <mat-menu class="bg-black" #menuHeader="matMenu">
@@ -13,4 +12,4 @@
         </div>
       </mat-menu>
   </mat-toolbar>
-</div>
+<!--Equipes, Sphères, Materials, Simulateur-->
