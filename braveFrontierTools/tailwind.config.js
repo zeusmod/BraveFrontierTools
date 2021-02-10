@@ -18,9 +18,22 @@ module.exports = {
         },
 
         colors: {
-          blackCardUnit: '#423D3D',
+          blackCardUnit: '#2C2C2C',  //423D3D
+          fireColor: '#FE2E2E',
+          waterColor: '#3471EB',
           earthColor: '#04B404',
+          lightningColor: '#F3F781',
+          lightColor: '#BFBFBF',
+          darkColor: '#D0A9F5',
           stars: '#FEF505'
+        },
+
+        gridTemplateRows: {
+          '10': 'minmax(10px, 1fr)',
+        },
+        gridTemplateColumns: {
+          // Simple 16 column grid
+         '16': 'repeat(10, calc(15% * 1))',
         },
       },
     },
