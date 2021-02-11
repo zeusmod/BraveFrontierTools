@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { UnitsListService } from '../../service/unitsList.service';
 import { IUnitsList } from '../../interface/unitsList/iUnitsList.interface';
@@ -12,10 +12,8 @@ import { map } from 'rxjs/operators';
 
 export class UnitsComponent implements OnInit {
   unitsListResult$: Observable<Array<IUnitsList>>;
-  dungeonBattle: boolean;
-  arena: boolean; 
-  displayPictureState$: any;
-  test: boolean;
+  @Input() unitsList$: Observable<Array<IUnitsList>>;
+
 
   constructor(private unitsListService: UnitsListService) { }
 
@@ -33,5 +31,10 @@ export class UnitsComponent implements OnInit {
         }
       )
       this.unitsListResult$ = unitsList$;
+      this.unitsList$ = unitsList$;
+  }
+
+  resultSearchTextFieldEvent = ($event: Observable<Array<IUnitsList>>) => {
+    this.unitsListResult$ = $event;
   }
 }
