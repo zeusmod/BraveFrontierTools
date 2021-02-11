@@ -1,4 +1,7 @@
 <div>
+  <div class="pt-5 flex justify-center md:justify-start ml-2">
+    <app-search-bar [searchTextField$]="unitsList$" (resultSearchTextField$)="resultSearchTextFieldEvent($event)"></app-search-bar>
+  </div>
 <div class="flex flex-wrap justify-center items-center md:justify-start">
   <ng-template ngFor let-unitsList [ngForOf]="unitsListResult$ | async" 
   let-i="index"> 

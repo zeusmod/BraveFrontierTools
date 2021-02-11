@@ -5,14 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '../shared/material-module/material.module';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from '../shared/navigation/navigation.component';
 import { UnitsComponent } from './units/units.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 import { UnitsListService } from '../service/unitsList.service';
+
 import { DisplayPictureDirective } from './units/display-picture.directive';
+
 
 @NgModule({
   declarations: [
@@ -20,14 +24,17 @@ import { DisplayPictureDirective } from './units/display-picture.directive';
     HomeComponent,
     NavigationComponent,
     UnitsComponent,
-    DisplayPictureDirective
+    DisplayPictureDirective,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [UnitsListService],
   bootstrap: [AppComponent]

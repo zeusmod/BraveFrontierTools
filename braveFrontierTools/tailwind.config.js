@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin');
 module.exports = {
     prefix: '',
     purge: {
@@ -35,10 +36,28 @@ module.exports = {
           // Simple 16 column grid
          '16': 'repeat(10, calc(15% * 1))',
         },
+        spacing: {
+          '120': '30rem',
+        }
       },
     },
     variants: {
-      extend: {},
+      extend: {
+        borderRadius: ['responsive', 'important'],
+      },
     },
-    plugins: [require('@tailwindcss/forms'),require('@tailwindcss/typography')],
+    plugins: [
+      require('@tailwindcss/forms'),
+      require('@tailwindcss/typography'),
+      plugin(function({ addVariant }) {
+        addVariant('important', ({ container }) => {
+          container.walkRules(rule => {
+            rule.selector = `.\\!${rule.selector.slice(1)}`
+            rule.walkDecls(decl => {
+              decl.important = true
+            })
+          })
+        })
+      })
+    ],
 };
