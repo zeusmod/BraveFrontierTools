@@ -2,11 +2,13 @@
   <div class="pt-5 flex justify-center md:justify-start ml-2">
     <app-search-bar [searchTextField$]="unitsList$" (resultSearchTextField$)="resultSearchTextFieldEvent($event)"></app-search-bar>
   </div>
-<div class="flex flex-wrap justify-center items-center md:justify-start">
-  <ng-template ngFor let-unitsList [ngForOf]="unitsListResult$ | async" 
-  let-i="index"> 
-  <div class="h-3/4 w-80">
-   <mat-card class="h-auto bg-blackCardUnit m-2">
+  <div class="flex flex-col justify-center lg:flex-row">
+   <!-- <div class=""></div>-->
+ <app-advanced-search></app-advanced-search>
+<div class="flex flex-wrap justify-center md:justify-start">
+  <ng-template ngFor let-unitsList [ngForOf]="unitsListResult$ | async" let-i="index"> 
+  <div class="h-124 w-80">
+   <mat-card class="h-120 bg-blackCardUnit m-2">
      <mat-card-header class="w-full flex justify-center">
       <div class="w-60 flex justify-between">
         <div class="h-6 w-6">
@@ -78,6 +80,7 @@
    </div>
   </ng-template>
  </div>
+</div>
 </div>
 
 
