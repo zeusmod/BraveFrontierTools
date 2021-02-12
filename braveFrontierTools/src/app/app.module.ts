@@ -16,6 +16,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { UnitsListService } from '../service/unitsList.service';
 
 import { DisplayPictureDirective } from './units/display-picture.directive';
+import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { DisplayPictureDirective } from './units/display-picture.directive';
     NavigationComponent,
     UnitsComponent,
     DisplayPictureDirective,
-    SearchBarComponent
+    SearchBarComponent,
+    AdvancedSearchComponent
   ],
   imports: [
     BrowserModule,
