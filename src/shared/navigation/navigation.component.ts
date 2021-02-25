@@ -18,7 +18,7 @@ activeLinkIndex = -1;
         path: '/'
       },
       {
-        label: 'Units',
+        label: 'Unités',
         path: '/units'
       }
     ]
