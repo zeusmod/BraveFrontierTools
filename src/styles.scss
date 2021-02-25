@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-card {
+  border-radius: 20px !important;
+}
+
+.mat-card-header-text {
+  margin: 0 !important;
+}
+
+.overflow-custom {
+  @apply overflow-x-auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply h-2.5;
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ @apply bg-white;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-fireColor;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-fireColor;
+}
+
+.border-rounded {
+  border-radius: 50% !important;
+}
+
+
+
+
+
+
+
+

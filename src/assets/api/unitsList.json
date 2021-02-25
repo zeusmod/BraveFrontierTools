@@ -1,0 +1,770 @@
+[
+  {
+    "id": 0,
+    "name": "Escrimeur Vargas",
+    "level": "★★",
+    "numUnit": 1,
+    "gender": {"picture":"assets/imgs/unitsList/Vargas/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Vargas/element/feu.png", "alt":"Fire picture"},
+    "color": "fireColor",
+    "evolveFamily": "Vargas",
+    "unit": {"picture": "assets/imgs/unitsList/Vargas/units/escrimeur_vargas.png", "alt": "Escrimeur Vargas"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Vargas/animations/escrimeur_vargas_combat_mode_anime.gif", 
+        "altCombatMode": "Escrimeur Vargas animation mode combat", 
+        "displayCombatModePicture": false, 
+        "normalAttack": "assets/imgs/unitsList/Vargas/animations/escrimeur_vargas_normal_attack_anime.gif", 
+        "altNormalAttack": "Escrimeur Vargas animation attaque normal", 
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1030, "atk": 500, "def": 410, "rec": 320}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_escrimeur_vargas.png", "alt":"Escrimeur Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_de_feu.png", "alt":"Vargas de Feu"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_roi_vargas.png", "alt":"Roi Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_dieu_vargas.png", "alt":"Dieu Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_de_feu_sacré.png", "alt":"Vargas de Feu Sacré"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_legende_de_feu.png", "alt":"Vargas Legende de Feu"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_halcyon_ignis.png", "alt":"Vargas Hacylon Ignis"}]
+  },
+  {
+    "id": 1,
+    "name": "Vargas de Feu",
+    "level": "★★★",
+    "numUnit": 2,
+    "gender": {"picture":"assets/imgs/unitsList/Vargas/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Vargas/element/feu.png", "alt":"Fire picture"},
+    "color": "fireColor",
+    "evolveFamily": "Vargas",
+    "unit":{"picture": "assets/imgs/unitsList/Vargas/units/vargas_de_feu.png", "alt": "Vargas de Feu"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Vargas/animations/vargas_de_feu_combat_mode_anime.gif", 
+        "altCombatMode": "Vargas de Feu animation mode combat", 
+        "displayCombatModePicture": false,  
+        "normalAttack": "assets/imgs/unitsList/Vargas/animations/vargas_de_feu_normal_attack_anime.gif", 
+        "altNormalAttack": "Vargas de Feu animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1484, "atk": 630, "def": 517, "rec": 404}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_escrimeur_vargas.png", "alt":"Escrimeur Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_de_feu.png", "alt":"Vargas de Feu"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_roi_vargas.png", "alt":"Roi Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_dieu_vargas.png", "alt":"Dieu Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_de_feu_sacré.png", "alt":"Vargas de Feu Sacré"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_legende_de_feu.png", "alt":"Vargas Legende de Feu"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_halcyon_ignis.png", "alt":"Vargas Hacylon Ignis"}]
+  },
+  {
+    "id": 2,
+    "name": "Roi Vargas",
+    "level": "★★★★",
+    "numUnit": 3,
+    "gender": {"picture":"assets/imgs/unitsList/Vargas/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Vargas/element/feu.png", "alt":"Fire picture"},
+    "color": "fireColor",
+    "evolveFamily": "Vargas",
+    "unit":{"picture": "assets/imgs/unitsList/Vargas/units/roi_vargas.png", "alt": "Roi Vargas"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Vargas/animations/roi_vargas_combat_mode_anime.gif", 
+        "altCombatMode": "Roi Vargas animation mode combat",  
+        "displayCombatModePicture": false,  
+        "normalAttack": "assets/imgs/unitsList/Vargas/animations/roi_vargas_normal_attack_anime.gif", 
+        "altNormalAttack": "Roi Vargas animation attaque normal",
+        "displayNormalAttackPicture": false
+    }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1995, "atk": 826, "def": 725, "rec": 632}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_escrimeur_vargas.png", "alt":"Escrimeur Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_de_feu.png", "alt":"Vargas de Feu"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_roi_vargas.png", "alt":"Roi Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_dieu_vargas.png", "alt":"Dieu Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_de_feu_sacré.png", "alt":"Vargas de Feu Sacré"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_legende_de_feu.png", "alt":"Vargas Legende de Feu"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_halcyon_ignis.png", "alt":"Vargas Hacylon Ignis"}]
+  },
+  {
+    "id": 3,
+    "name": "Dieu Vargas",
+    "level": "★★★★★",
+    "numUnit": 4,
+    "gender": {"picture":"assets/imgs/unitsList/Vargas/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Vargas/element/feu.png", "alt":"Fire picture"},
+    "color": "fireColor",
+    "evolveFamily": "Vargas",
+    "unit":{"picture": "assets/imgs/unitsList/Vargas/units/dieu_vargas.png", "alt": "Dieu Vargas"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Vargas/animations/dieu_vargas_combat_mode_anime.gif", 
+        "altCombatMode": "Dieu Vargas animation mode combat",  
+        "displayCombatModePicture": false,  
+        "normalAttack": "assets/imgs/unitsList/Vargas/animations/dieu_vargas_normal_attack_anime.gif", 
+        "altNormalAttack": "Dieu Vargas animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 2466, "atk": 946, "def": 841, "rec": 718}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_escrimeur_vargas.png", "alt":"Escrimeur Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_de_feu.png", "alt":"Vargas de Feu"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_roi_vargas.png", "alt":"Roi Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_dieu_vargas.png", "alt":"Dieu Vargas"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_de_feu_sacré.png", "alt":"Vargas de Feu Sacré"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_legende_de_feu.png", "alt":"Vargas Legende de Feu"},
+      {"evolve": "assets/imgs/unitsList/Vargas/evolves/chain_evolve_vargas_halcyon_ignis.png", "alt":"Vargas Hacylon Ignis"}]
+  },
+  {
+    "id": 4,
+    "name": "Séléna",
+    "level": "★★",
+    "numUnit": 5,
+    "gender": {"picture":"assets/imgs/unitsList/Selena/gender/female.png", "alt": "Female picture"},
+    "element": {"picture": "assets/imgs/unitsList/Selena/element/eau.png", "alt":"water picture"},
+    "color": "waterColor",
+    "evolveFamily": "Selena",
+    "unit":{"picture": "assets/imgs/unitsList/Selena/units/selena.png", "alt": "Séléna"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Selena/animations/selena_combat_mode_anime.gif", 
+        "altCombatMode": "Séléna animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Selena/animations/selena_normal_attack_anime.gif", 
+        "altNormalAttack": "Séléna animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1000, "atk": 490, "def": 360, "rec": 420}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena.png", "alt":"Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena_de_glace.png", "alt":"Séléna de glace"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_reine_selena.png", "alt":"Reine Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_deesse_selena.png", "alt":"Deesse Selena"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_sainte_selena.png", "alt":"Sainte selena"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_muse_de_glace_selena.png", "alt":"Muse de Glace Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena_halcyon_algor.png", "alt":"Séléna Hacylon Algor"}]
+  },
+  {
+    "id": 5,
+    "name": "Séléna de Glace",
+    "level": "★★★",
+    "numUnit": 6,
+    "gender": {"picture":"assets/imgs/unitsList/Selena/gender/female.png", "alt": "Female picture"},
+    "element": {"picture": "assets/imgs/unitsList/Selena/element/eau.png", "alt":"water picture"},
+    "color": "waterColor",
+    "evolveFamily": "Selena",
+    "unit":{"picture": "assets/imgs/unitsList/Selena/units/selena_de_glace.png", "alt": "Séléna de Glace"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Selena/animations/selena_de_glace_combat_mode_anime.gif", 
+        "altCombatMode": "Séléna de Glace animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Selena/animations/selena_de_glace_normal_attack_anime.gif", 
+        "altNormalAttack": "Séléna de Glace animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1377, "atk": 636, "def": 422, "rec": 624}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena.png", "alt":"Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena_de_glace.png", "alt":"Séléna de Glace"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_reine_selena.png", "alt":"Reine Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_deesse_selena.png", "alt":"Deesse Selena"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_sainte_selena.png", "alt":"Sainte selena"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_muse_de_glace_selena.png", "alt":"Muse de Glace Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena_halcyon_algor.png", "alt":"Séléna Hacylon Algor"}]
+  },
+  {
+    "id": 6,
+    "name": "Reine Séléna",
+    "level": "★★★★",
+    "numUnit": 7,
+    "gender": {"picture":"assets/imgs/unitsList/Selena/gender/female.png", "alt": "Female picture"},
+    "element": {"picture": "assets/imgs/unitsList/Selena/element/eau.png", "alt":"water picture"},
+    "color": "waterColor",
+    "evolveFamily": "Selena",
+    "unit":{"picture": "assets/imgs/unitsList/Selena/units/reine_selena.png", "alt": "Reine Séléna"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Selena/animations/reine_selena_combat_mode_anime.gif", 
+        "altCombatMode": "Reine Séléna animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Selena/animations/reine_selena_normal_attack_anime.gif", 
+        "altNormalAttack": "Reine Séléna animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1928, "atk": 826, "def": 661, "rec": 743}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena.png", "alt":"Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena_de_glace.png", "alt":"Séléna de glace"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_reine_selena.png", "alt":"Reine Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_deesse_selena.png", "alt":"Deesse Selena"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_sainte_selena.png", "alt":"Sainte selena"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_muse_de_glace_selena.png", "alt":"Muse de Glace Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena_halcyon_algor.png", "alt":"Séléna Hacylon Algor"}]
+  },
+  {
+    "id": 7,
+    "name": "Déesse Séléna",
+    "level": "★★★★★",
+    "numUnit": 8,
+    "gender": {"picture":"assets/imgs/unitsList/Selena/gender/female.png", "alt": "Female picture"},
+    "element": {"picture": "assets/imgs/unitsList/Selena/element/eau.png", "alt":"water picture"},
+    "color": "waterColor",
+    "evolveFamily": "Selena",
+    "unit":{"picture": "assets/imgs/unitsList/Selena/units/deesse_selena.png", "alt": "Déesse Séléna"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Selena/animations/deesse_selena_combat_mode_anime.gif", 
+        "altCombatMode": "Déesse Séléna animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Selena/animations/deesse_selena_normal_attack_anime.gif", 
+        "altNormalAttack": "Déesse Séléna animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 2342, "atk": 994, "def": 766, "rec": 1016}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena.png", "alt":"Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena_de_glace.png", "alt":"Séléna de glace"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_reine_selena.png", "alt":"Reine Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_deesse_selena.png", "alt":"Deesse Selena"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_sainte_selena.png", "alt":"Sainte selena"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_muse_de_glace_selena.png", "alt":"Muse de Glace Séléna"},
+      {"evolve": "assets/imgs/unitsList/Selena/evolves/chain_evolve_selena_halcyon_algor.png", "alt":"Séléna Hacylon Algor"}]
+  },
+  {
+    "id": 8,
+    "name": "Soldat Lance",
+    "level": "★★",
+    "numUnit": 9,
+    "gender": {"picture":"assets/imgs/unitsList/Lance/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Lance/element/earth.png", "alt":"earth picture"},
+    "color": "earthColor",
+    "evolveFamily": "Lance",
+    "unit":{"picture": "assets/imgs/unitsList/Lance/units/soldat_lance.png", "alt": "Soldat Lance"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Lance/animations/soldat_lance_combat_mode_anime.gif", 
+        "altCombatMode": "Soldat Lance animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Lance/animations/soldat_lance_normal_attack_anime.gif", 
+        "altNormalAttack": "Soldat Lance animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1010, "atk": 500, "def": 500, "rec": 150}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_soldat_lance.png", "alt":"Soldat Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_nature.png", "alt":"Lance Nature"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_de_terre.png", "alt":"Lance de terre"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_dieu_lance.png", "alt":"Dieu Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_saint_lance.png", "alt":"Saint Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_legendaire.png", "alt":"Lance Legendaire"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_halcyon_terra.png", "alt":"Lance Halcyon Terra"}]
+  },
+  {
+    "id": 9,
+    "name": "Lance Nature",
+    "level": "★★★",
+    "numUnit": 10,
+    "gender": {"picture":"assets/imgs/unitsList/Lance/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Lance/element/earth.png", "alt":"earth picture"},
+    "color": "earthColor",
+    "evolveFamily": "Lance",
+    "unit":{"picture": "assets/imgs/unitsList/Lance/units/lance_nature.png", "alt": "Lance Nature"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Lance/animations/lance_nature_combat_mode_anime.gif", 
+        "altCombatMode": "Lance Nature animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Lance/animations/lance_nature_normal_attack_anime.gif", 
+        "altNormalAttack": "Lance Nature animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1419, "atk": 648, "def": 630, "rec": 223}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_soldat_lance.png", "alt":"Soldat Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_nature.png", "alt":"Lance Nature"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_de_terre.png", "alt":"Lance de terre"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_dieu_lance.png", "alt":"Dieu Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_saint_lance.png", "alt":"Saint Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_legendaire.png", "alt":"Lance Legendaire"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_halcyon_terra.png", "alt":"Lance Halcyon Terra"}]
+  },
+  {
+    "id": 10,
+    "name": "Lance de terre",
+    "level": "★★★★",
+    "numUnit": 11,
+    "gender": {"picture":"assets/imgs/unitsList/Lance/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Lance/element/earth.png", "alt":"earth picture"},
+    "color": "earthColor",
+    "evolveFamily": "Lance",
+    "unit":{"picture": "assets/imgs/unitsList/Lance/units/lance_de_terre.png", "alt": "Lance de terre"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Lance/animations/lance_de_terre_combat_mode_anime.gif", 
+        "altCombatMode": "Lance de terre animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Lance/animations/lance_de_terre_normal_attack_anime.gif", 
+        "altNormalAttack": "Lance de terre animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1980, "atk": 832, "def": 844, "rec": 410}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_soldat_lance.png", "alt":"Soldat Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_nature.png", "alt":"Lance Nature"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_de_terre.png", "alt":"Lance de terre"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_dieu_lance.png", "alt":"Dieu Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_saint_lance.png", "alt":"Saint Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_legendaire.png", "alt":"Lance Legendaire"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_halcyon_terra.png", "alt":"Lance Halcyon Terra"}]
+  },
+  {
+    "id": 11,
+    "name": "Dieu Lance",
+    "level": "★★★★★",
+    "numUnit": 12,
+    "gender": {"picture":"assets/imgs/unitsList/Lance/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Lance/element/earth.png", "alt":"earth picture"},
+    "color": "earthColor",
+    "evolveFamily": "Lance",
+    "unit":{"picture": "assets/imgs/unitsList/Lance/units/dieu_lance.png", "alt": "Dieu Lance"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Lance/animations/dieu_lance_combat_mode_anime.gif", 
+        "altCombatMode": "Dieu Lance animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Lance/animations/dieu_lance_normal_attack_anime.gif", 
+        "altNormalAttack": "Dieu Lance animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 2442, "atk": 1010, "def": 987, "rec": 522}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_soldat_lance.png", "alt":"Soldat Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_nature.png", "alt":"Lance Nature"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_de_terre.png", "alt":"Lance de terre"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_dieu_lance.png", "alt":"Dieu Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_saint_lance.png", "alt":"Saint Lance"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_legendaire.png", "alt":"Lance Legendaire"},
+      {"evolve": "assets/imgs/unitsList/Lance/evolves/chain_evolve_lance_halcyon_terra.png", "alt":"Lance Halcyon Terra"}]
+  },
+  {
+    "id": 12,
+    "name": "Guerrier Eze",
+    "level": "★★",
+    "numUnit": 13,
+    "gender": {"picture":"assets/imgs/unitsList/Eze/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Eze/element/lightning.png", "alt":"lightning picture"},
+    "color": "lightningColor",
+    "evolveFamily": "Eze",
+    "unit":{"picture": "assets/imgs/unitsList/Eze/units/guerrier_eze.png", "alt": "Guerrier Eze"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Eze/animations/guerrier_eze_combat_mode_anime.gif", 
+        "altCombatMode": "Guerrier Eze animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Eze/animations/guerrier_eze_normal_attack_anime.gif", 
+        "altNormalAttack": "Guerrier Eze animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1180, "atk": 580, "def": 320, "rec": 120}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_guerrier_eze.png", "alt":"Guerrier Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_de_foudre.png", "alt":"Eze de Foudre"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_roi_eze.png", "alt":"Roi Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_dieu_eze.png", "alt":"Dieu Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_sainte_foudre.png", "alt":"Eze Sainte Foudre"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_foudre_legendaire.png", "alt":"Eze Foudre Legendaire"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_halcyon_fulgur.png", "alt":"Eze Halcyon Fulgur"}]
+  },
+  {
+    "id": 13,
+    "name": "Eze de Foudre",
+    "level": "★★★",
+    "numUnit": 14,
+    "gender": {"picture":"assets/imgs/unitsList/Eze/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Eze/element/lightning.png", "alt":"lightning picture"},
+    "color": "lightningColor",
+    "evolveFamily": "Eze",
+    "unit":{"picture": "assets/imgs/unitsList/Eze/units/eze_de_foudre.png", "alt": "Eze de foudre"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Eze/animations/eze_de_foudre_combat_mode_anime.gif", 
+        "altCombatMode": "Eze de foudre animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Eze/animations/eze_de_foudre_normal_attack_anime.gif", 
+        "altNormalAttack": "Eze de foudre animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1593, "atk": 731, "def": 378, "rec": 189}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_guerrier_eze.png", "alt":"Guerrier Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_de_foudre.png", "alt":"Eze de Foudre"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_roi_eze.png", "alt":"Roi Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_dieu_eze.png", "alt":"Dieu Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_sainte_foudre.png", "alt":"Eze Sainte Foudre"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_foudre_legendaire.png", "alt":"Eze Foudre Legendaire"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_halcyon_fulgur.png", "alt":"Eze Halcyon Fulgur"}]
+  },
+  {
+    "id": 14,
+    "name": "Roi Eze",
+    "level": "★★★★",
+    "numUnit": 15,
+    "gender": {"picture":"assets/imgs/unitsList/Eze/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Eze/element/lightning.png", "alt":"lightning picture"},
+    "color": "lightningColor",
+    "evolveFamily": "Eze",
+    "unit":{"picture": "assets/imgs/unitsList/Eze/units/roi_eze.png", "alt": "Roi Eze"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Eze/animations/roi_eze_combat_mode_anime.gif", 
+        "altCombatMode": "Roi Eze animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Eze/animations/roi_eze_normal_attack_anime.gif", 
+        "altNormalAttack": "Roi Eze animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 2205, "atk": 906, "def": 618, "rec": 384}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_guerrier_eze.png", "alt":"Guerrier Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_de_foudre.png", "alt":"Eze de Foudre"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_roi_eze.png", "alt":"Roi Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_dieu_eze.png", "alt":"Dieu Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_sainte_foudre.png", "alt":"Eze Sainte Foudre"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_foudre_legendaire.png", "alt":"Eze Foudre Legendaire"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_halcyon_fulgur.png", "alt":"Eze Halcyon Fulgur"}]
+  },
+  {
+    "id": 15,
+    "name": "Dieu Eze",
+    "level": "★★★★★",
+    "numUnit": 16,
+    "gender": {"picture":"assets/imgs/unitsList/Eze/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Eze/element/lightning.png", "alt":"lightning picture"},
+    "color": "lightningColor",
+    "evolveFamily": "Eze",
+    "unit":{"picture": "assets/imgs/unitsList/Eze/units/dieu_eze.png", "alt": "Dieu Eze"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Eze/animations/dieu_eze_combat_mode_anime.gif", 
+        "altCombatMode": "Dieu Eze animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Eze/animations/dieu_eze_normal_attack_anime.gif", 
+        "altNormalAttack": "Dieu Eze animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 2728, "atk": 1100, "def": 712, "rec": 480}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_guerrier_eze.png", "alt":"Guerrier Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_de_foudre.png", "alt":"Eze de Foudre"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_roi_eze.png", "alt":"Roi Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_dieu_eze.png", "alt":"Dieu Eze"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_sainte_foudre.png", "alt":"Eze Sainte Foudre"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_foudre_legendaire.png", "alt":"Eze Foudre Legendaire"},
+      {"evolve": "assets/imgs/unitsList/Eze/evolves/chain_evolve_eze_halcyon_fulgur.png", "alt":"Eze Halcyon Fulgur"}]
+  },
+  {
+    "id": 16,
+    "name": "Écuyer Atro",
+    "level": "★★",
+    "numUnit": 17,
+    "gender": {"picture":"assets/imgs/unitsList/Atro/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Atro/element/light.png", "alt":"light picture"},
+    "color": "lightColor",
+    "evolveFamily": "Atro",
+    "unit":{"picture": "assets/imgs/unitsList/Atro/units/ecuyer_atro.png", "alt": "Écuyer Atro"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Atro/animations/ecuyer_atro_combat_mode_anime.gif", 
+        "altCombatMode": "Écuyer Atro animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Atro/animations/ecuyer_atro_normal_attack_anime.gif", 
+        "altNormalAttack": "Écuyer Atro animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 970, "atk": 500, "def": 500, "rec": 500}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_ecuyer_atro.png", "alt":"Écuyer Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_chevalier_atro.png", "alt":"Chevalier Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_chevalier_sacre_atro.png", "alt":"Chevalier sacré Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_dieu_atro.png", "alt":"Dieu Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_atro_divin.png", "alt":"Atro divin"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_Atro_legendaire.png", "alt":"Atro légendaire"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_atro_halcyon_lux.png", "alt":"Atro Halcyon Lux"}]
+  },
+  {
+    "id": 17,
+    "name": "Chevalier Atro",
+    "level": "★★★",
+    "numUnit": 18,
+    "gender": {"picture":"assets/imgs/unitsList/Atro/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Atro/element/light.png", "alt":"light picture"},
+    "color": "lightColor",
+    "evolveFamily": "Atro",
+    "unit":{"picture": "assets/imgs/unitsList/Atro/units/chevalier_atro.png", "alt": "Chevalier Atro"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Atro/animations/chevalier_atro_combat_mode_anime.gif", 
+        "altCombatMode": "Chevalier Atro animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Atro/animations/chevalier_atro_normal_attack_anime.gif", 
+        "altNormalAttack": "Chevalier Atro animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1397, "atk": 630, "def": 630, "rec": 630}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_ecuyer_atro.png", "alt":"Écuyer Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_chevalier_atro.png", "alt":"Chevalier Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_chevalier_sacre_atro.png", "alt":"Chevalier sacré Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_dieu_atro.png", "alt":"Dieu Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_atro_divin.png", "alt":"Atro divin"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_Atro_legendaire.png", "alt":"Atro légendaire"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_atro_halcyon_lux.png", "alt":"Atro Halcyon Lux"}]
+  },
+  {
+    "id": 18,
+    "name": "Chevalier Sacré Atro",
+    "level": "★★★★",
+    "numUnit": 19,
+    "gender": {"picture":"assets/imgs/unitsList/Atro/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Atro/element/light.png", "alt":"light picture"},
+    "color": "lightColor",
+    "evolveFamily": "Atro",
+    "unit":{"picture": "assets/imgs/unitsList/Atro/units/chevalier_sacre_atro.png", "alt": "Chevalier sacré Atro"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Atro/animations/chevalier_sacre_atro_combat_mode_anime.gif", 
+        "altCombatMode": "Chevalier sacré Atro animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Atro/animations/chevalier_sacre_atro_normal_attack_anime.gif", 
+        "altNormalAttack": "Chevalier sacré Atro animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1887, "atk": 819, "def": 819, "rec": 819}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_ecuyer_atro.png", "alt":"Écuyer Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_chevalier_atro.png", "alt":"Chevalier Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_chevalier_sacre_atro.png", "alt":"Chevalier sacré Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_dieu_atro.png", "alt":"Dieu Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_atro_divin.png", "alt":"Atro divin"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_Atro_legendaire.png", "alt":"Atro légendaire"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_atro_halcyon_lux.png", "alt":"Atro Halcyon Lux"}]
+  },
+  {
+    "id": 19,
+    "name": "Dieu Atro",
+    "level": "★★★★★",
+    "numUnit": 20,
+    "gender": {"picture":"assets/imgs/unitsList/Atro/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Atro/element/light.png", "alt":"light picture"},
+    "color": "lightColor",
+    "evolveFamily": "Atro",
+    "unit":{"picture": "assets/imgs/unitsList/Atro/units/dieu_atro.png", "alt": "Dieu Atro"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Atro/animations/dieu_atro_combat_mode_anime.gif", 
+        "altCombatMode": "Dieu Atro animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Atro/animations/dieu_atro_normal_attack_anime.gif", 
+        "altNormalAttack": "Dieu Atro animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 2307, "atk": 939, "def": 939, "rec": 939}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_ecuyer_atro.png", "alt":"Écuyer Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_chevalier_atro.png", "alt":"Chevalier Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_chevalier_sacre_atro.png", "alt":"Chevalier sacré Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_dieu_atro.png", "alt":"Dieu Atro"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_atro_divin.png", "alt":"Atro divin"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_Atro_legendaire.png", "alt":"Atro légendaire"},
+      {"evolve": "assets/imgs/unitsList/Atro/evolves/chain_evolve_atro_halcyon_lux.png", "alt":"Atro Halcyon Lux"}]
+  },
+  {
+    "id": 20,
+    "name": "Magress de fer",
+    "level": "★★",
+    "numUnit": 21,
+    "gender": {"picture":"assets/imgs/unitsList/Magress/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Magress/element/dark.png", "alt":"dark picture"},
+    "color": "darkColor",
+    "evolveFamily": "Magress",
+    "unit":{"picture": "assets/imgs/unitsList/Magress/units/magress_de_fer.png", "alt": "Dieu Atro"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Magress/animations/magress_de_fer_combat_mode_anime.gif", 
+        "altCombatMode": "Magress de fer animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Magress/animations/magress_de_fer_normal_attack_anime.gif", 
+        "altNormalAttack": "Magress de fer animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 1500, "atk": 430, "def": 530, "rec": 120}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_de_fer.png", "alt":"Magress de fer"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_puissant_magress.png", "alt":"Puissant Magress"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_noir.png", "alt":"Magress noir"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_mortel.png", "alt":"Magress Mortel"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_impie.png", "alt":"Magress Impie"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_legende_noire_magress.png", "alt":"Légende noire Magress"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_halcyon_umbra.png", "alt":"Magress Halcyon Umbra"}]
+  },
+  {
+    "id": 21,
+    "name": "Puissant Magress",
+    "level": "★★★",
+    "numUnit": 22,
+    "gender": {"picture":"assets/imgs/unitsList/Magress/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Magress/element/dark.png", "alt":"dark picture"},
+    "color": "darkColor",
+    "evolveFamily": "Magress",
+    "unit":{"picture": "assets/imgs/unitsList/Magress/units/puissant_magress.png", "alt": "Puissant Magress"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Magress/animations/puissant_magress_combat_mode_anime.gif", 
+        "altCombatMode": "Puissant Magress animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Magress/animations/puissant_magress_normal_attack_anime.gif", 
+        "altNormalAttack": "Puissant Magress animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 2228, "atk": 542, "def": 715, "rec": 195}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_de_fer.png", "alt":"Magress de fer"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_puissant_magress.png", "alt":"Puissant Magress"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_noir.png", "alt":"Magress noir"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_mortel.png", "alt":"Magress Mortel"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_impie.png", "alt":"Magress Impie"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_legende_noire_magress.png", "alt":"Légende noire Magress"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_halcyon_umbra.png", "alt":"Magress Halcyon Umbra"}]
+  },
+  {
+    "id": 22,
+    "name": "Magress noir",
+    "level": "★★★★",
+    "numUnit": 23,
+    "gender": {"picture":"assets/imgs/unitsList/Magress/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Magress/element/dark.png", "alt":"dark picture"},
+    "color": "darkColor",
+    "evolveFamily": "Magress",
+    "unit":{"picture": "assets/imgs/unitsList/Magress/units/magress_noir.png", "alt": "Magress noir"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Magress/animations/magress_noir_combat_mode_anime.gif", 
+        "altCombatMode": "Magress noir animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Magress/animations/magress_noir_normal_attack_anime.gif", 
+        "altNormalAttack": "Magress noir animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 2651, "atk": 743, "def": 860, "rec": 381}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_de_fer.png", "alt":"Magress de fer"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_puissant_magress.png", "alt":"Puissant Magress"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_noir.png", "alt":"Magress noir"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_mortel.png", "alt":"Magress Mortel"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_impie.png", "alt":"Magress Impie"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_legende_noire_magress.png", "alt":"Légende noire Magress"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_halcyon_umbra.png", "alt":"Magress Halcyon Umbra"}]
+  },
+  {
+    "id": 23,
+    "name": "Magress Mortel",
+    "level": "★★★★★",
+    "numUnit": 24,
+    "gender": {"picture":"assets/imgs/unitsList/Magress/gender/male.png", "alt": "Male picture"},
+    "element": {"picture": "assets/imgs/unitsList/Magress/element/dark.png", "alt":"dark picture"},
+    "color": "darkColor",
+    "evolveFamily": "Magress",
+    "unit":{"picture": "assets/imgs/unitsList/Magress/units/magress_mortel.png", "alt": "Magress Mortel"},
+    "animationBattle": [
+      {
+        "combatMode" : "assets/imgs/unitsList/Magress/animations/magress_mortel_combat_mode_anime.gif", 
+        "altCombatMode": "Magress Mortel animation mode combat", 
+        "displayCombatModePicture": false,
+        "normalAttack": "assets/imgs/unitsList/Magress/animations/magress_mortel_normal_attack_anime.gif", 
+        "altNormalAttack": "Magress Mortel animation attaque normal",
+        "displayNormalAttackPicture": false
+      }
+    ],
+    "fields": [{"naturalDungeon": "assets/imgs/fields/dungeon_battle.jpg", "arena": "assets/imgs/fields/arena.jpg"}],
+    "favoris": false,
+    "baseStat":[{"hp": 3127, "atk": 845, "def": 1011, "rec": 487}],
+    "chainsEvolves":[
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_de_fer.png", "alt":"Magress de fer"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_puissant_magress.png", "alt":"Puissant Magress"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_noir.png", "alt":"Magress noir"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_mortel.png", "alt":"Magress Mortel"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_impie.png", "alt":"Magress Impie"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_legende_noire_magress.png", "alt":"Légende noire Magress"},
+      {"evolve": "assets/imgs/unitsList/Magress/evolves/chain_evolve_magress_halcyon_umbra.png", "alt":"Magress Halcyon Umbra"}]
+  }
+]
