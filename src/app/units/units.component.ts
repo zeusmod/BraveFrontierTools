@@ -10,7 +10,7 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./units.component.scss']
 })
 
-//deploy
+
 export class UnitsComponent implements OnInit {
 
    unitsList$: Observable<Array<IUnitsList>>;
