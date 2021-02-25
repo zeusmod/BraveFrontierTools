@@ -15,7 +15,7 @@
           <img class="h-6 w-6" src="{{unitsList.gender.picture}}" alt="{{unitsList.gender.alt}}">
         </div>
         <div class="flex flex-col">
-          <mat-card-title class="text-xl font-bold text-{{unitsList.color}}">{{unitsList.name}}</mat-card-title>
+          <mat-card-title class="text-xl font-bold text-{{unitsList.color}}" [ngStyle]="{'color': unitsList.color}">{{unitsList.name}}</mat-card-title>
           <mat-card-title class="text-xl text-stars text-center">{{unitsList.level}}</mat-card-title>
          </div>
 
@@ -57,10 +57,10 @@
   <mat-card-content class="w-full">
       <div class="pt-3">
          <div class="flex justify-around">
-            <p class="font-bold text-{{unitsList.color}}">HP</p>
-            <p class="font-bold text-{{unitsList.color}}">ATK</p>
-            <p class="font-bold text-{{unitsList.color}}">DEF</p>
-            <p class="font-bold text-{{unitsList.color}}">REC</p>
+            <p class="font-bold" [ngStyle]="{'color': unitsList.color}">HP</p>
+            <p class="font-bold" [ngStyle]="{'color': unitsList.color}">ATK</p>
+            <p class="font-bold" [ngStyle]="{'color': unitsList.color}">DEF</p>
+            <p class="font-bold" [ngStyle]="{'color': unitsList.color}">REC</p>
          </div>
          <div class="flex justify-around" *ngFor="let stat of unitsList.baseStat">
            <p class="text-white">{{stat.hp}}</p>
