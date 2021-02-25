@@ -49,6 +49,9 @@ module.exports = {
     variants: {
       extend: {
         borderRadius: ['responsive', 'important'],
+        margin: ['responsive', 'important'],
+        height: ['responsive', 'important'],
+        width: ['responsive', 'important'],
       },
     },
     plugins: [
