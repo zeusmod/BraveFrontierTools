@@ -1,0 +1,5 @@
+<div class="h-480 w-64 rounded-2xl ml-2 mt-2 mr-5 bg-blackCardUnit">
+    <div class="w-full h-auto">
+        <app-level-search [levelsearch$]="advancedSearch$" (levelSearchResult$)="levelSearchResultEvent($event)" [newSearch$]="newResultSearch$"></app-level-search>
+    </div>
+</div>

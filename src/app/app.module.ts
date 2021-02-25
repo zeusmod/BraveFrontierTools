@@ -17,6 +17,7 @@ import { UnitsListService } from '../service/unitsList.service';
 
 import { DisplayPictureDirective } from './units/display-picture.directive';
 import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
+import { LevelSearchComponent } from './advanced-search/level-search/level-search.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { AdvancedSearchComponent } from './advanced-search/advanced-search.compo
     UnitsComponent,
     DisplayPictureDirective,
     SearchBarComponent,
-    AdvancedSearchComponent
+    AdvancedSearchComponent,
+    LevelSearchComponent
   ],
   imports: [
     BrowserModule,
