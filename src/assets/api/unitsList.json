@@ -6,7 +6,7 @@
     "numUnit": 1,
     "gender": {"picture":"assets/imgs/unitsList/Vargas/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Vargas/element/feu.png", "alt":"Fire picture"},
-    "color": "fireColor",
+    "color": "#FE2E2E",
     "evolveFamily": "Vargas",
     "unit": {"picture": "assets/imgs/unitsList/Vargas/units/escrimeur_vargas.png", "alt": "Escrimeur Vargas"},
     "animationBattle": [
@@ -38,7 +38,7 @@
     "numUnit": 2,
     "gender": {"picture":"assets/imgs/unitsList/Vargas/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Vargas/element/feu.png", "alt":"Fire picture"},
-    "color": "fireColor",
+    "color": "#FE2E2E",
     "evolveFamily": "Vargas",
     "unit":{"picture": "assets/imgs/unitsList/Vargas/units/vargas_de_feu.png", "alt": "Vargas de Feu"},
     "animationBattle": [
@@ -70,7 +70,7 @@
     "numUnit": 3,
     "gender": {"picture":"assets/imgs/unitsList/Vargas/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Vargas/element/feu.png", "alt":"Fire picture"},
-    "color": "fireColor",
+    "color": "#FE2E2E",
     "evolveFamily": "Vargas",
     "unit":{"picture": "assets/imgs/unitsList/Vargas/units/roi_vargas.png", "alt": "Roi Vargas"},
     "animationBattle": [
@@ -102,7 +102,7 @@
     "numUnit": 4,
     "gender": {"picture":"assets/imgs/unitsList/Vargas/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Vargas/element/feu.png", "alt":"Fire picture"},
-    "color": "fireColor",
+    "color": "#FE2E2E",
     "evolveFamily": "Vargas",
     "unit":{"picture": "assets/imgs/unitsList/Vargas/units/dieu_vargas.png", "alt": "Dieu Vargas"},
     "animationBattle": [
@@ -134,7 +134,7 @@
     "numUnit": 5,
     "gender": {"picture":"assets/imgs/unitsList/Selena/gender/female.png", "alt": "Female picture"},
     "element": {"picture": "assets/imgs/unitsList/Selena/element/eau.png", "alt":"water picture"},
-    "color": "waterColor",
+    "color": "#3471EB",
     "evolveFamily": "Selena",
     "unit":{"picture": "assets/imgs/unitsList/Selena/units/selena.png", "alt": "Séléna"},
     "animationBattle": [
@@ -166,7 +166,7 @@
     "numUnit": 6,
     "gender": {"picture":"assets/imgs/unitsList/Selena/gender/female.png", "alt": "Female picture"},
     "element": {"picture": "assets/imgs/unitsList/Selena/element/eau.png", "alt":"water picture"},
-    "color": "waterColor",
+    "color": "#3471EB",
     "evolveFamily": "Selena",
     "unit":{"picture": "assets/imgs/unitsList/Selena/units/selena_de_glace.png", "alt": "Séléna de Glace"},
     "animationBattle": [
@@ -198,7 +198,7 @@
     "numUnit": 7,
     "gender": {"picture":"assets/imgs/unitsList/Selena/gender/female.png", "alt": "Female picture"},
     "element": {"picture": "assets/imgs/unitsList/Selena/element/eau.png", "alt":"water picture"},
-    "color": "waterColor",
+    "color": "#3471EB",
     "evolveFamily": "Selena",
     "unit":{"picture": "assets/imgs/unitsList/Selena/units/reine_selena.png", "alt": "Reine Séléna"},
     "animationBattle": [
@@ -230,7 +230,7 @@
     "numUnit": 8,
     "gender": {"picture":"assets/imgs/unitsList/Selena/gender/female.png", "alt": "Female picture"},
     "element": {"picture": "assets/imgs/unitsList/Selena/element/eau.png", "alt":"water picture"},
-    "color": "waterColor",
+    "color": "#3471EB",
     "evolveFamily": "Selena",
     "unit":{"picture": "assets/imgs/unitsList/Selena/units/deesse_selena.png", "alt": "Déesse Séléna"},
     "animationBattle": [
@@ -262,7 +262,7 @@
     "numUnit": 9,
     "gender": {"picture":"assets/imgs/unitsList/Lance/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Lance/element/earth.png", "alt":"earth picture"},
-    "color": "earthColor",
+    "color": "#04B404",
     "evolveFamily": "Lance",
     "unit":{"picture": "assets/imgs/unitsList/Lance/units/soldat_lance.png", "alt": "Soldat Lance"},
     "animationBattle": [
@@ -294,7 +294,7 @@
     "numUnit": 10,
     "gender": {"picture":"assets/imgs/unitsList/Lance/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Lance/element/earth.png", "alt":"earth picture"},
-    "color": "earthColor",
+    "color": "#04B404",
     "evolveFamily": "Lance",
     "unit":{"picture": "assets/imgs/unitsList/Lance/units/lance_nature.png", "alt": "Lance Nature"},
     "animationBattle": [
@@ -326,7 +326,7 @@
     "numUnit": 11,
     "gender": {"picture":"assets/imgs/unitsList/Lance/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Lance/element/earth.png", "alt":"earth picture"},
-    "color": "earthColor",
+    "color": "#04B404",
     "evolveFamily": "Lance",
     "unit":{"picture": "assets/imgs/unitsList/Lance/units/lance_de_terre.png", "alt": "Lance de terre"},
     "animationBattle": [
@@ -358,7 +358,7 @@
     "numUnit": 12,
     "gender": {"picture":"assets/imgs/unitsList/Lance/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Lance/element/earth.png", "alt":"earth picture"},
-    "color": "earthColor",
+    "color": "#04B404",
     "evolveFamily": "Lance",
     "unit":{"picture": "assets/imgs/unitsList/Lance/units/dieu_lance.png", "alt": "Dieu Lance"},
     "animationBattle": [
@@ -390,7 +390,7 @@
     "numUnit": 13,
     "gender": {"picture":"assets/imgs/unitsList/Eze/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Eze/element/lightning.png", "alt":"lightning picture"},
-    "color": "lightningColor",
+    "color": "#F3F781",
     "evolveFamily": "Eze",
     "unit":{"picture": "assets/imgs/unitsList/Eze/units/guerrier_eze.png", "alt": "Guerrier Eze"},
     "animationBattle": [
@@ -422,7 +422,7 @@
     "numUnit": 14,
     "gender": {"picture":"assets/imgs/unitsList/Eze/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Eze/element/lightning.png", "alt":"lightning picture"},
-    "color": "lightningColor",
+    "color": "#F3F781",
     "evolveFamily": "Eze",
     "unit":{"picture": "assets/imgs/unitsList/Eze/units/eze_de_foudre.png", "alt": "Eze de foudre"},
     "animationBattle": [
@@ -454,7 +454,7 @@
     "numUnit": 15,
     "gender": {"picture":"assets/imgs/unitsList/Eze/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Eze/element/lightning.png", "alt":"lightning picture"},
-    "color": "lightningColor",
+    "color": "#F3F781",
     "evolveFamily": "Eze",
     "unit":{"picture": "assets/imgs/unitsList/Eze/units/roi_eze.png", "alt": "Roi Eze"},
     "animationBattle": [
@@ -486,7 +486,7 @@
     "numUnit": 16,
     "gender": {"picture":"assets/imgs/unitsList/Eze/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Eze/element/lightning.png", "alt":"lightning picture"},
-    "color": "lightningColor",
+    "color": "#F3F781",
     "evolveFamily": "Eze",
     "unit":{"picture": "assets/imgs/unitsList/Eze/units/dieu_eze.png", "alt": "Dieu Eze"},
     "animationBattle": [
@@ -518,7 +518,7 @@
     "numUnit": 17,
     "gender": {"picture":"assets/imgs/unitsList/Atro/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Atro/element/light.png", "alt":"light picture"},
-    "color": "lightColor",
+    "color": "#BFBFBF",
     "evolveFamily": "Atro",
     "unit":{"picture": "assets/imgs/unitsList/Atro/units/ecuyer_atro.png", "alt": "Écuyer Atro"},
     "animationBattle": [
@@ -550,7 +550,7 @@
     "numUnit": 18,
     "gender": {"picture":"assets/imgs/unitsList/Atro/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Atro/element/light.png", "alt":"light picture"},
-    "color": "lightColor",
+    "color": "#BFBFBF",
     "evolveFamily": "Atro",
     "unit":{"picture": "assets/imgs/unitsList/Atro/units/chevalier_atro.png", "alt": "Chevalier Atro"},
     "animationBattle": [
@@ -582,7 +582,7 @@
     "numUnit": 19,
     "gender": {"picture":"assets/imgs/unitsList/Atro/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Atro/element/light.png", "alt":"light picture"},
-    "color": "lightColor",
+    "color": "#BFBFBF",
     "evolveFamily": "Atro",
     "unit":{"picture": "assets/imgs/unitsList/Atro/units/chevalier_sacre_atro.png", "alt": "Chevalier sacré Atro"},
     "animationBattle": [
@@ -614,7 +614,7 @@
     "numUnit": 20,
     "gender": {"picture":"assets/imgs/unitsList/Atro/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Atro/element/light.png", "alt":"light picture"},
-    "color": "lightColor",
+    "color": "#BFBFBF",
     "evolveFamily": "Atro",
     "unit":{"picture": "assets/imgs/unitsList/Atro/units/dieu_atro.png", "alt": "Dieu Atro"},
     "animationBattle": [
@@ -646,7 +646,7 @@
     "numUnit": 21,
     "gender": {"picture":"assets/imgs/unitsList/Magress/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Magress/element/dark.png", "alt":"dark picture"},
-    "color": "darkColor",
+    "color": "#D0A9F5",
     "evolveFamily": "Magress",
     "unit":{"picture": "assets/imgs/unitsList/Magress/units/magress_de_fer.png", "alt": "Dieu Atro"},
     "animationBattle": [
@@ -678,7 +678,7 @@
     "numUnit": 22,
     "gender": {"picture":"assets/imgs/unitsList/Magress/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Magress/element/dark.png", "alt":"dark picture"},
-    "color": "darkColor",
+    "color": "#D0A9F5",
     "evolveFamily": "Magress",
     "unit":{"picture": "assets/imgs/unitsList/Magress/units/puissant_magress.png", "alt": "Puissant Magress"},
     "animationBattle": [
@@ -710,7 +710,7 @@
     "numUnit": 23,
     "gender": {"picture":"assets/imgs/unitsList/Magress/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Magress/element/dark.png", "alt":"dark picture"},
-    "color": "darkColor",
+    "color": "#D0A9F5",
     "evolveFamily": "Magress",
     "unit":{"picture": "assets/imgs/unitsList/Magress/units/magress_noir.png", "alt": "Magress noir"},
     "animationBattle": [
@@ -742,7 +742,7 @@
     "numUnit": 24,
     "gender": {"picture":"assets/imgs/unitsList/Magress/gender/male.png", "alt": "Male picture"},
     "element": {"picture": "assets/imgs/unitsList/Magress/element/dark.png", "alt":"dark picture"},
-    "color": "darkColor",
+    "color": "#D0A9F5",
     "evolveFamily": "Magress",
     "unit":{"picture": "assets/imgs/unitsList/Magress/units/magress_mortel.png", "alt": "Magress Mortel"},
     "animationBattle": [
