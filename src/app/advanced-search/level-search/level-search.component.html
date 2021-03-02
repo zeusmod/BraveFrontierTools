@@ -7,18 +7,18 @@
         <ng-template ngFor let-level [ngForOf]="displayLevelList()">
             <div class="flex items-center">
                 <div class="pr-2 ml-4">
-                    <button class="focus:outline-none" mat-icon-button (click)="selectedLevel(level)">
+                    <button class="focus:outline-none" mat-icon-button (click)="selectedLevel(level)" id="test">
                         <mat-icon
                                 *ngIf="level.state === true"
                                 aria-label="Example icon-button with a heart icon"
-                                class="text-stars">
+                                class="text-stars" id="star">
                                 star
                         </mat-icon>
                             
                         <mat-icon
                                 *ngIf="level.state === false"
                                 aria-label="Example icon-button with a heart icon"
-                                class="text-stars text-3xl !h-8 !w-8 pt-1">
+                                class="text-stars text-3xl !h-8 !w-8 pt-1" id="star_border">
                                 star_border
                         </mat-icon>
                     </button>
