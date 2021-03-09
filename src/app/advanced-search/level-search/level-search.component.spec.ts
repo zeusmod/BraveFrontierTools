@@ -8,7 +8,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 
-fdescribe('LevelSearchComponent', () => {
+describe('LevelSearchComponent', () => {
   let component: LevelSearchComponent;
   let fixture: ComponentFixture<LevelSearchComponent>;
   let starEl: DebugElement;
